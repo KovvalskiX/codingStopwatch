@@ -51,7 +51,7 @@ while True:
         dpg.add_button(width=100, label='Start', callback=start, tag='start')
         dpg.add_same_line()
         dpg.add_button(width=100, label='Reset', callback=reset)
-        dpg.add_text()
+        dpg.add_text() # TODO: разобраться с разметкой и сделать нормально...
         dpg.add_text()
         dpg.add_text()
         dpg.add_separator()
